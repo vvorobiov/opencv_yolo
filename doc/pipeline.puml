@@ -1,0 +1,23 @@
+@startuml
+
+header v1.0
+title Video Object Detection Pipeline
+footer \nv1.0 11/14/2025 Source: [[https://github.com/vvorobiov/opencv_yolo]]
+
+start
+:Load OpenCV lib;
+:Load YOLO model;
+:Open video file;
+while (able to read a frame from the video?) is (yes)
+    group Detection #Technology
+        #LightGreen:**Pre-processing**\nConvert a frame into YOLO input format;
+        #LightGreen:**Inference**\nPass input through YOLO for inference;
+        #LightGreen:**Post-processing**\n* Thresholding: removing low-confidence results\n*NMS: eliminating duplicate boxes;
+    end group
+    :Draw bounding boxes on a frame;
+    :Display results;
+endwhile (no)
+:Free up resources;
+stop
+
+@enduml
