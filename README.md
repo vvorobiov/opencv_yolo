@@ -1,11 +1,13 @@
-# Java Object Detection with OpenCV & YOLO11 – Complete Tutorial
+# Video Object Detection in Java with OpenCV + YOLO11 — full end-to-end tutorial
 
-This tutorial explains how to detect objects in video with the help of OpenCV and pre-trained YOLO11 model.
-Ultralytics YOLO11 is trained to detect 80 classes of objects.
+## About
+
+This tutorial walks you through how to perform real-time video object detection using Ultralytics YOLO11 models in Java 
+via OpenCV’s DNN module. Perfect for Java developers exploring computer vision and deep-learning pipelines.
 
 ## Here is the end result
-![Traffic 1](doc/img/traffic1.png "taffic1.png")
-![Birds](doc/img/birds.png "birds.png")
+![OpenCV Java YOLO tutorial](doc/img/traffic1.png "taffic1.png")
+![OpenCV Java YOLO tutorial](doc/img/birds.png "birds.png")
 
 
 Versions used in this tutorial:
